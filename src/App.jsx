@@ -1,9 +1,12 @@
+import { Box } from "@chakra-ui/react"
+import Header from "./components"
+
 function App() {
 
   return (
-    <div>
-      
-    </div>
+    <Box bg='blackAlpha.900' h="100vh">
+      <Header />
+    </Box>
   )
 }
 
