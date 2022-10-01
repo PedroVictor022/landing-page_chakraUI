@@ -5,7 +5,7 @@ import Main from "./components/Main"
 function App() {
 
   return (
-    <Box bg='blackAlpha.900' h="100vh">
+    <Box bg='blackAlpha.900' h="auto">
       <Header />
       <Main />
     </Box>
